@@ -78,6 +78,6 @@ body #page-header {
 }
 
 body #team-cards {
-  background-color: var(--light1);
+  background-color: var(--dark2);
   color: var(--card1);
 }
