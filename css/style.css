@@ -17,15 +17,40 @@
 }
 
 body {
-  background-color: var(--grey1);
+  background-image: url('../images/background01.png');
+  background-size: cover;
+  background-attachment: fixed;
   font-family: var(--myFont);
-  font-size: medium;
+  font-size: large;
   color: var(--med1);
+}
+
+body #blog-date {
+ font-size: x-large;
+}
+
+body #blog-post {
+
+}
+
+body #blog-text {
+ font-size: large;
+}
+
+body #blog-title {
+  font-family: var(--myFont);
+  font-size: xx-large;
+  font-weight: 700;
+  color: var(--bright1);
 }
 
 body #card-description {
   font-size: large;
   color: var(--card1);
+}
+
+body #card-div {
+  width: 80%;
 }
 
 body #card-extra {
@@ -43,8 +68,18 @@ body #card-title {
   color: var(--card2);
 }
 
+body #footer {
+  text-align: center;
+  font-weight: 500;
+  color: var(--grey0);
+  padding: 2em;
+  text-shadow: 0 2px 2px  var(--light1);
+}
+
 body #main-content {
-  width: 90%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1em 10%;
 }
 
 body #menu {
@@ -58,6 +93,8 @@ body #menu-center {
   border: none;
   box-shadow: none;
   background: transparent;
+  vertical-align: center;
+  height: 100%;
 }
 
 body #menu-item {
