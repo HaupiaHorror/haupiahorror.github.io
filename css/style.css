@@ -17,9 +17,7 @@
 }
 
 body {
-  background: url("../images/background.png");
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: var(--grey1);
   font-family: var(--myFont);
   font-size: medium;
   color: var(--med1);
