@@ -12,8 +12,8 @@
   --grey0: rgb(226, 226, 226);
   --grey1: rgb(187, 187, 187);
   --grey2: rgb(70, 70, 70);
-  --card1: #afb2d4;
-  --card2: rgb(170, 169, 169);
+  --card1: #d6cab8;
+  --card2: #ad9a7d;
 }
 
 body {
@@ -23,6 +23,30 @@ body {
   font-family: var(--myFont);
   font-size: medium;
   color: var(--med1);
+}
+
+body #card-description {
+  font-size: large;
+  color: var(--card1);
+}
+
+body #card-extra {
+  color: var(--card2);
+}
+
+body #card-meta {
+  font-size: x-large;
+  color: var(--card1);
+}
+
+body #card-title {
+  font-family: var(--menuFont);
+  font-size: x-large;
+  color: var(--card2);
+}
+
+body #main-content {
+  width: 90%;
 }
 
 body #menu {
@@ -44,4 +68,18 @@ body #menu-item {
   font-size: x-large;
   color: var(--grey1);
   padding: 0 2em;
+}
+
+body #page-header {
+  font-family: var(--myFont);
+  font-size: xxx-large;
+  font-weight: 800;
+  text-align: center;
+  padding: 1.5em;
+  text-shadow: 0 2px 2px  var(--bright1);
+}
+
+body #team-cards {
+  background-color: var(--light1);
+  color: var(--card1);
 }
