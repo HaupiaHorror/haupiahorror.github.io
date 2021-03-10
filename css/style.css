@@ -30,11 +30,12 @@ body #blog-date {
 }
 
 body #blog-post {
-
+  background-color: var(--card1);
+  margin: 10px 0;
 }
 
 body #blog-text {
- font-size: large;
+  font-size: large;
 }
 
 body #blog-title {
