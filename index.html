@@ -17,18 +17,35 @@
 
 <body>
     <!--Menu-->
-    <div id="nav-bar">
+    <div class="ui centered padded grid" id="landing-menu">
+        <div class="ui three wide column" style="padding: 1em;">
+            <a href="/index.html">
+                <img src="/images/logo-proto.png" class="ui tiny image">
+            </a>
+        </div>
+        <div class="ui ten wide center aligned column">
+            
+        </div>
+        <div class="ui three wide column">
 
+        </div>
     </div>
-    <script>
-        $(function () {
-            $("#nav-bar").load("nav.html");
-        });
-    </script>
 
     <!--Content-->
-    <div class="ui padded container" id="main-content">
-        <div id="page-header">Welcome to Team Haupia Horror!</div>
+    <div class="ui padded container" id="landing-page">
+        <div id="landing-header">Welcome to <br>Team Haupia Horror!</div>
+        <div class="ui grid">
+            <div class="ui eleven wide column"></div>
+            <div class="ui five wide column">
+                <div class="ui list" id="landing-links">
+                    <a class="item" id="landing-links" href="/games.html">Games <i class="inverted circular arrow right icon"></i></a>
+                    <br>
+                    <a class="item" id="landing-links" href="/blog.html">Blog <i class="inverted circular arrow right icon"></i></a>
+                    <br>
+                    <a class="item" id="landing-links" href="/about.html">About Us <i class="inverted circular arrow right icon"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!--Footer-->
