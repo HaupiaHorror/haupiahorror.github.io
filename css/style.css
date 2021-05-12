@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DotGothic16&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=RocknRoll+One&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 
 :root {
-  --myFont: 'Alegreya Sans SC', sans-serif;
+  --myFont: "Alegreya Sans SC", sans-serif;
   --menuFont: "RocknRoll One", sans-serif;
   --dark1: #201b12;
   --dark2: #3a1717;
@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url('../images/background01.png');
+  background-image: url("../images/background01.png");
   background-size: cover;
   background-attachment: fixed;
   font-family: var(--myFont);
@@ -26,14 +26,13 @@ body {
 }
 
 body #blog-date {
- font-size: x-large;
+  font-size: x-large;
 }
 
 body #blog-post {
   background-color: var(--card1);
   margin: 10px 0;
   border-radius: 5px;
-
 }
 
 body #blog-text {
@@ -71,12 +70,19 @@ body #card-title {
   color: var(--card2);
 }
 
+body #download-link {
+  font-size: xx-large;
+  padding: 1em;
+  background-color: rgba(172, 73, 73, 0.7);
+  color: white;
+}
+
 body #footer {
   text-align: center;
   font-weight: 500;
   color: var(--grey0);
   padding: 2em;
-  text-shadow: 0 2px 2px  var(--light1);
+  text-shadow: 0 2px 2px var(--light1);
 }
 
 body #landing-header {
@@ -85,7 +91,7 @@ body #landing-header {
   font-weight: 800;
   text-align: left;
   padding: 1.5em;
-  text-shadow: 0 2px 2px  var(--bright1);
+  text-shadow: 0 2px 2px var(--bright1);
   color: var(--grey0);
   line-height: 1em;
 }
@@ -151,8 +157,8 @@ body #page-header {
   font-weight: 800;
   text-align: center;
   color: var(--grey0);
-  padding: .75em;
-  text-shadow: 0 5px 5px  var(--bright1);
+  padding: 0.75em;
+  text-shadow: 0 5px 5px var(--bright1);
 }
 
 body #team-cards {
